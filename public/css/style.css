@@ -1,0 +1,12 @@
+.top_banner {
+    background-image: url("./../images/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.banner1 {
+    /* background-image: url("./../images/nice_pattern3.png"); */
+    background-color: #ff6392;
+}

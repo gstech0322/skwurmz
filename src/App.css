@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Lobster&family=Ultra&display=swap');
+
+.disconnected {
+    font-family: Lato, serif;
+    font-size: 1.6rem;
+    outline: none;
+    background: #172d42;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 20px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #07081d;
+    color: white;
+}
+
+.custom-border {
+    /* background-image: url("https://www.pudgypenguins.io/images/site/meltedice.svg"); */
+    /* border: 1px solid #9ffccf; */
+    background-repeat: no-repeat;
+}
+
+.custom-border img {
+    /* width: 100%;; */
+}
+
+.custom-btn {
+    background-color: #a900ff;
+    height: 55px;
+    border: none;
+    margin-top: -19px;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav_bar span {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar_title{
+    padding-top: 12px;
+}
+
+.navbar_title h3 {
+    font-family: 'Rammetto One', cursive;
+}
+
+
+.mt-6 {
+    margin-top: 8rem !important;
+}
+
+.min-height {
+    min-height: 150vh;
+}
+
+.min-height-43vh {
+    min-height: 43vh;
+}
+
+.link-btn {
+    background: #beedfd;
+    color: #07081d;
+    padding: 3px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: .3s;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.img-styles {
+    border: 5px solid #22424e;
+    top: 4%;
+    left: 4%;
+    border-radius: 10%;
+}
+
+.img-styles-sm {
+    border: 5px solid #22424e;
+    border-radius: 10%;
+
+}
+
+.img-styles-xs {
+    border: 5px solid #22424e;
+    top: 2.5%;
+    left: 3%;
+    border-radius: 10%;
+}
+
+.nft-img {
+    max-width: 70%;
+    border: 10px #fff solid;
+    border-radius: 50%;
+    left: 17%;
+    -webkit-animation: pulse 4s ease 0s infinite normal;
+    -moz-animation: pulse 4s ease 0s infinite normal;
+    -ms-animation: pulse 4s ease 0s infinite normal;
+    animation: pulse 4s ease 0s infinite normal;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 18%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        left: 0;
+
+
+    }
+
+    50% {
+        left: 18%;
+    }
+
+    100% {
+        left: 0;
+
+    }
+}
+
+.layer-trans {
+    /* background-color: #2b242424; */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.w-63 {
+    width: 63%;
+}
+
+.w-52 {
+    width: 52%;
+}
+
+.bg-size-69 {
+    background-size: 69% !important;
+}
+
+.bg-size-58 {
+    background-size: 58% !important;
+}
+
+.list-group-item {
+    background-color: transparent !important;
+    border-bottom: 1px solid #96c7d7e0;
+}
+
+.list-group-item>h2 {
+    color: white !important;
+}
+
+.list-group-item>h3 {
+    color: #fff !important
+}
+
+.min-height-md {
+    min-height: 300px;
+}
+
+.min-height-sm {
+    min-height: 180px;
+}
+
+.icon-md {
+    font-size: 2.5rem;
+}
+
+.rammetto-font {
+    font-family: 'Rammetto One', cursive;
+}
+
+.container {
+    background: transparent !important;
+}
+
+
+#roadmap {
+    padding: 100px 50px;
+    position: relative;
+    min-height: 102vh;
+}
+
+#roadmap h2 {
+    margin-left: 33.333%;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    ;
+}
+
+#roadmap .stage {
+    margin-top: 70px;
+    display: flex
+}
+
+#roadmap .stage .title {
+    padding-right: 40px;
+    font-family: Rammetto One;
+    font-size: 2rem;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left
+}
+
+.percent-sm {
+    font-size: 1.3rem;
+}
+
+#roadmap .stage .title .sellout {
+    flex-grow: 2;
+    margin-right: 30px;
+    line-height: 30px
+}
+
+#roadmap .stage .title .sellout:nth-of-type(4) {
+    margin-right: -61px;
+}
+
+#roadmap .stage .title .percent {
+    color: #fa5c7e
+}
+
+#roadmap .stage .title .check {
+    /* transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transition: 1s */
+}
+
+#roadmap .stage .title .check.hidden {
+    visibility: hidden
+}
+
+#roadmap .stage .title .check:hover {
+    transform: rotate(2turn)
+}
+
+#roadmap .stage .description {
+    font-family: Lato;
+    font-size: 2rem
+}
+
+#roadmap .stage .description .titlemobile {
+    width: 100%;
+    font-family: Rammetto One
+}
+
+#roadmap .stage .description .step {
+    display: none;
+    padding-right: 40px;
+    font-family: Rammetto One;
+    font-size: 2rem
+}
+
+#roadmap .stage .description .step .percent {
+    color: #fa5c7e
+}
+
+#roadmap .line {
+    background-color: #172d42;
+    width: 36px;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: calc(33.333% - 225px);
+    z-index: -1
+}
+
+#roadmap .line .bg {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column
+}
+
+#roadmap .line .bg img {
+    width: 100%
+}
+
+#roadmap .line .bg .bg-content {
+    background-image: url('https://www.pudgypenguins.io/images/site/roadmap-mask-c.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+    height: 100%
+}
+
+#roadmap .line .fill {
+    background: linear-gradient(180deg, #513bff, #247efd 50%, #9ffccf);
+    top: 0
+}
+
+#roadmap .line .fill,
+#roadmap .line .mask {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: 1s
+}
+
+#roadmap .line .mask {
+    background: #172d42
+}
+
+.twitter-color {
+    fill: #fa5c7e;
+    color: #fa5c7e;
+}
+
+.h-73 {
+    height: 73% !important;
+}
+
+.font-md {
+    font-size: 2rem;
+}
+
+.font-lg {
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Ultra', serif;
+}
+
+.py-md-6 {
+    margin-top: 6rem;
+}
+
+@media(max-width:426px) {
+    .min-height-43vh {
+        min-height: 140vh !important;
+    }
+
+    #main_gif_container {
+        min-height: 35vh !important;
+    }
+
+    .custom-border-sm {
+        min-height: 35vh !important;
+    }
+
+    .icon-md,
+    .icon-md>h3 {
+        font-size: 7vw !important;
+    }
+}
+
+@media(min-width:1450px) {
+    .custom-border {
+        background-size: 82%;
+    }
+
+    #main_gif {
+        width: 75% !important;
+    }
+
+}
+
+@media(max-width:1449px) {
+    .custom-border {
+        background-size: 82%;
+    }
+
+    #main_gif {
+        width: 75% !important;
+    }
+}
+
+@media(max-width:1050px) {
+    #roadmap h2 {
+        font-size: 7vw
+    }
+
+    #roadmap .line {
+        left: calc(33.333% - 110px);
+    }
+
+    #main_gif {
+        width: 52% !important;
+        left: 2%;
+    }
+
+    #main_gif_container {
+        background-size: 57%;
+        left: 19%;
+    }
+}
+
+@media(max-width:800px) {
+    #main_gif_container {
+        height: 85% !important;
+    }
+
+    .custom-border-sm {
+        height: 57% !important;
+    }
+
+    .icon-md,
+    .icon-md>h3 {
+        font-size: 2.6vw;
+
+    }
+
+    .min-height-43vh {
+        min-height: 27vh;
+    }
+
+    #roadmap {
+        width: 66.666%;
+        margin: 240px auto 100px;
+        padding: 0
+    }
+
+    #roadmap .iceberg2 {
+        left: -1080px
+    }
+
+    #roadmap .icesmall1 {
+        top: -191px
+    }
+
+    #roadmap h2 {
+        margin-left: 20%
+    }
+
+    #roadmap .stage .grid-1c {
+        width: 0
+    }
+
+    #roadmap .stage .description {
+        font-family: Lato;
+        font-size: 2rem;
+        margin-left: 70px;
+        width: 100%
+    }
+
+    #roadmap .stage .description .step {
+        display: none;
+        padding-right: 40px;
+        font-family: Rammetto One;
+        font-size: 2rem
+    }
+
+    #roadmap .stage .description .step .percent {
+        color: #fa5c7e
+    }
+
+    #roadmap .stage .description p {
+        font-size: 1.6rem;
+        line-height: 2.5rem
+    }
+
+    #roadmap .stage .title {
+        margin-left: -10px;
+        flex-grow: inherit
+    }
+
+    #roadmap .stage .title .sellout {
+        display: none
+    }
+
+    #roadmap .stage .description .step {
+        display: block;
+        font-size: 1.5rem
+    }
+
+    #roadmap .stage .description .titlemobile {
+        font-family: Rammetto One
+    }
+
+    #roadmap .line {
+        left: 0
+    }
+
+    #roadmap .check {
+        order: -1;
+        left: 0
+    }
+}
+
+@media(max-width:600px) {
+    #roadmap {
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%
+    }
+
+    #roadmap h2 {
+        margin-left: 20%
+    }
+
+    #roadmap .check {
+        width: 45px;
+        height: auto
+    }
+
+    #roadmap .line {
+        left: 50px
+    }
+
+    #roadmap .stage .title {
+        margin-left: -3px
+    }
+
+    #roadmap .stage .description {
+        margin-left: 45px
+    }
+
+    .grid-1c,
+    .grid-2c {
+        width: 100%
+    }
+}
+
+
+.social-buttons span {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 8px;
+}
+
+.social-buttons span::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #22a6b3, #30336b);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease-in;
+}
+
+.social-buttons span:hover::before {
+    transform: scale(0);
+}
+
+.social-buttons span .icon {
+    transition: 0.3s ease-in;
+}
+
+.social-buttons span:hover .icon {
+    background: linear-gradient(45deg, #22a6b3, #181a4e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2.2);
+    fill: #fa5c7e;
+}
+
+.banner_title {
+    font-family: 'Ultra', serif;
+    font-size: 7em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    text-shadow: 0px 11px 19px black;
+}
+
+@media screen and (max-width: 360px) {
+    .banner_title {
+        font-size: 32px;
+        margin-top: 12px;
+    }
+}
+
+.banner_text_area {
+    background-color: #ffffff82;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+.banner_text_area p {
+    color: #000;
+    font-family: 'Rammetto One', cursive;
+    font-size: 12px;
+}
+
+.navigation_bar {
+    background-color: #ba55d3;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav_image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 30px;
+    font-family: 'Ultra', serif;
+    text-transform: uppercase;
+    color: #fff;
+}
